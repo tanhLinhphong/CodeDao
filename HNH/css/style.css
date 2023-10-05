@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, sans-serif;
+    background-color: rgb(221, 156, 198);
+    margin: 20px;
+    padding: 20px;
+}
+img{
+    display: block;
+    margin:  auto;
+    max-width: 35%;
+    border:10px solid #0d9b94;
+}
+ul{
+    margin: 15px;
+    padding: 20px;
+    background-color: #fd4ff5;
+    border: 1px solid #fffefe;
+    border-radius: 5px;
+
+}
+li{
+    margin: 5px 0;
+}
+blockquote{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #0c0c0c;
+    color:#ece5e5
+
+}
