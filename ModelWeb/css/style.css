@@ -1,45 +1,67 @@
 body{
+    /* font-size : kích cỡ chữ */
     font-size: 80%;
+    /* font-family: xác định phông chữ */
     font-family: 'Courier New', Courier, monospace;
+    /* letter-spacing: khoảng cách các kí tự */
     letter-spacing: 0.15em;
+    /* background-color:màu nền */
     background-color: #efefef;
 }
 #page{
+    /*max-width:xác định chiều rộng tối đa phần tử*/
     max-width: 940px;
+    /*min-width:xác định chiều rộng tối thiểu phần tử */
     min-width: 720px;
+    /* margin: căn lề cho phần tử */
     margin: 10px auto 10px auto;
+    /* padding: thiết lập vùng đệm */
     padding: 20px;
+    /* border: thuộc tính đường viền */
     border: 4px double #000;
     background-color: #ffffff;
 }
 #logo{
+    /* width:độ rộng phần tử trong id logo */
     width: 150px;
+    /* margin: khoảng cách từ viền đến nội dung xung quanh id logo*/
     margin: 10px auto 25px auto;
 }
 ul{
     width: 570px;
     padding: 15px;
     margin: 0px auto 0px auto;
+    /* border-top: thiết lập thuộc tính đường viền trên trong khai báo */
     border-top: 2px solid#000;
+    /* border-bottom: thiết lập đường viền dưới */
     border-bottom: 1px solid #000;
+    /* text-align:căn chỉnh kí tự */
     text-align: center;
 }
 li{
+    /* display:kiểu hiển thị */
     display: inline;
+    /* margin: khoảng cách từ viền đến nội dung xung quanh */
     margin:0px 3px;
 }
 p{
+    
     text-align: center;
     width: 600px;
     margin: 20px auto 20px auto;
+    /* font-weight:chiều cao kí tự */
     font-weight: normal;
 }
 a{
+    /* color:màu */
     color: #000000;
+    /* text-transfrom:Kiểu chữ in hoa */
     text-transform: uppercase;
+    /* text-decoration:trang trí */
     text-decoration: none;
     padding: 6px 18px 5px 18px;
 }
+/* a:hover lướt chuột đổi maud */
 a:hover,
 a.on{
     color: #cc3333;
