@@ -1,0 +1,158 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+    background-color: #14182a;
+    padding: 0;
+    margin: 0;
+}
+.top{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #1b2039;
+    height: 60px;
+}
+header{
+    color: #fff;
+    background-color: transparent;
+    max-width: 12000px;
+    margin:auto;
+}
+.logo{
+    float: left;
+    font-size: 24px;
+    line-height: 28px;
+}
+.ms_top_trend{
+    float: right;
+    font-size: 16px;
+    line-height: 30px;
+}
+.ms-color{
+    color: #3bc8e7;
+}
+.padiding-16{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.padiding-32{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.main{
+    max-width: 1200px;
+    margin-top: 100px;
+    margin-left: 120px;
+    margin: 120px;
+}
+.center{
+    text-align: center;
+}
+.row{
+    padding: 0 8px;
+}
+.row::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.ms-heading{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.item{
+    float: left;
+    width: 22.9%;
+    padding: 0 8px;
+    text-align: center;
+}
+.item > img{
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 10px;
+}
+.item > h3{
+    margin: 10px 0 5px;
+
+}
+.item > p{
+    margin: 0;
+    font-size: 14px;
+}
+.center .bar{
+    display: inline-block;
+    width: auto;
+}
+.bar{
+    overflow: hidden;
+}
+.bar .button{
+    white-space: normal;
+}
+.bar .bar-item{
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+}
+.button{
+    text-align:center;
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    overflow: hidden;
+    color: inherit;
+    background-color: inherit;
+}
+.black{
+    color: #fff !important;
+    background-color: #000 !important;
+}
+hr{
+    border:0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.about{
+    font-weight: 400;
+}
+.about h3{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.about h4{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.about h6{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.about img{
+    display: block;
+    margin: auto;
+    width: 800px;
+    height: 533px;
+    object-fit: contain;
+}
+.footer h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.third{
+    float: left;
+    width: 33.2%;
+}
