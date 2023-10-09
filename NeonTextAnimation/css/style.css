@@ -1,0 +1,29 @@
+body{
+    background-color: #000;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text-container > span {
+    font-family: "Baloo Thambi",cursive;
+    font-size: 7rem;
+    text-transform: uppercase;
+    animation: glow 6s ease-in-out infinite;
+    animation-delay: var(--delay);
+}
+@keyframes glow {
+    0%,
+    100% {
+      color: var(--color);
+      text-shadow: 0 0 10px #0652dd, 0 0 50px #0652dd, 0 0 100px #0652dd;
+    }
+  
+    10%,
+    90% {
+      color: #111;
+      text-shadow: none;
+    }
+  }
