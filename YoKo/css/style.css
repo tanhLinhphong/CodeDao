@@ -20,6 +20,7 @@ body{
 header{
     height: 160px;
     background-image: url(../images/header.jpg);
+    text-transform: uppercase;
 }
 h1{
     text-indent: -9999px;
