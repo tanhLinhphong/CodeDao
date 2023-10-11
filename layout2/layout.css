@@ -45,7 +45,11 @@ footer{
     font-size: larger;
     text-align: center;
     clear: both;
-    color: aliceblue;
-    border: 1px solid;
+    color: rgb(4, 106, 196);
+    border: 1px solid #ffa8a8;
     background-color: rgb(236, 184, 184);
+}
+h2{
+    text-align: center;
+    color: brown;
 }
