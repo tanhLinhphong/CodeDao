@@ -44,6 +44,7 @@ nav li{
 }
 nav li a {
     color:#ffffff
+    
 }
 nav li a:hover , nav li a.current {
     color: #000000;
