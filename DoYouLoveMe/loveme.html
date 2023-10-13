@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Love Me</title>
+        <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+        <style>
+            #ques{
+                position: absolute;
+                left: 220px;
+                top: 175px;
+                width: auto;
+                height: 210px;
+            }
+            #ans_yes{
+                position: absolute;
+                left: 285px;
+                top: 235px;
+                width: 210px;
+                height: 210px;
+            }
+            #ans_no{
+                position: absolute;
+                left: 360px;
+                top: 235px;
+                width: 210px;
+                height: 210px;
+            }
+        </style>
+        <script type="text/javascript">
+           
+            function yes(){
+                alert("Nó là con lợn")
+            }
+            function love(){
+                if(flag == 1){
+                    ans_no.style.top =90;
+                    ans_no.style.left=500;
+                    flag=2;
+                } if(flag == 2){
+                    ans_no.style.top =180;
+                    ans_no.style.left=50;
+                    flag=3;
+                } if(flag == 3){
+                    ans_no.style.top =235;
+                    ans_no.style.left=360;
+                    flag=1;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form action="#">
+            <h1 id="ques">Do You love me</h1>
+            <div id="ans_yes">
+                <input type="button" value="Yes" onclick="yes()"/>
+            </div>
+            <div id="ans_no">
+                <input type="button" value="No" onmouseover="love()"/>
+            </div>
+        </form>
+    </body>
+</html>
