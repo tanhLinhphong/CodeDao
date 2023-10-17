@@ -1,4 +1,4 @@
 var color = ['white', 'black', 'custom'];
-color[2] = 'beige';
+color[3] = 'HNH';
 var el = document.getElementById('colors');
-el.textContent = color[2];
+el.textContent = color[3];
