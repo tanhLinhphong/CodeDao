@@ -1,7 +1,8 @@
 function calculateTotal(){
-    var quantity1=document.getElementById("quantity1").value;
+    var quantity1=document.getElementById("quantity1").value; 
+    // lấy giá trị ở id quantity1
     var price1=document.getElementById("price1").innerHTML;
-
+    //  
     var quantity2=document.getElementById("quantity2").value;
     var price2=document.getElementById("price2").innerHTML;
     
