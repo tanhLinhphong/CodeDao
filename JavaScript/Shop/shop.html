@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Shop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/shop.css">
+    <script src="js/shop.js"></script>
+    </head>
+    <body>
+        <header>
+                <h1>Giỏ Hàng Của 1 Sinh Viên "Nghèo"</h1>
+        </header>
+        <div id="greeting" class="greeting"></div> 
+     <p id="time" style="color: blue;"></p>
+        <table id=" cart">
+          <tr>
+            <th>Sản phẩm</th>
+            <th>Số Lượng</th>
+            <th>Giá Tiền</th>
+            <th>Đơn vị</th>
+          </tr>
+          <tr>
+            <th>Iphone 15 Pro Max</th>
+            <th><input type="number" id="quantity1" value="1"></th>
+            <th id="price1">1299</th>
+            <th>USD</th>
+          </tr>
+          <tr>
+            <th>PlayStation 5</th>
+             <th><input type="number" id="quantity2" value="1"></th>
+            <th id="price2">500 </th>
+            <th>USD</th>
+            </tr>
+            <tr>
+                <th>Laptop Asus ProArt StudioBook One</th>
+               <th><input type="number" id="quantity3" value="1"></th>
+                <th id="price3">2887 </th>
+                <th>USD</th>
+            </tr>
+        </table>
+        <button onclick="calculateTotal()">Tổng Tiền</button>
+        <p id="total"></p>
+       
+    </body>
+</html>

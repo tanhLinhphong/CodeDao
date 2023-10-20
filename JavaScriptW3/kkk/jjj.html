@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-size: 2em;
+            text-align: center;
+            padding-top: 20%;
+        }
+    </style>
+</head>
+<body id="body">
+    <div id="time"></div>
+
+    <script>
+        function updateTime() {
+            var now = new Date();
+            var hours = now.getHours();
+            var minutes = now.getMinutes();
+            var seconds = now.getSeconds();
+            if (hours < 10) hours = "0" + hours;
+            if (minutes < 10) minutes = "0" + minutes;
+            if (seconds < 10) seconds = "0" + seconds;
+            document.getElementById('time').textContent = hours + ":" + minutes + ":" + seconds;
+        }
+
+        function changeColor() {
+            var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.getElementById('body').style.backgroundColor = randomColor;
+        }
+
+        setInterval(updateTime, 1000);
+        setInterval(changeColor, 60000);
+    </script>
+</body>
+</html>
