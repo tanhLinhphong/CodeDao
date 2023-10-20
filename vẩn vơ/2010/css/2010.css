@@ -1,0 +1,434 @@
+body{
+    background-image: url(../img/nen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#me{
+    text-align: center;
+    margin: auto
+     0px;
+}
+
+.hoaroi {
+    position: relative;
+    height: 100vh;
+    top: -400px;
+    left: -60px;
+}
+.hoaroi {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    animation: fallingRaindrop linear infinite;
+    }
+@keyframes fallingRaindrop {
+    0% {
+    transform: translate(0, -30px);
+    opacity: 1;
+}   
+100% {
+transform: translate(0, 100vh);
+opacity: 0;
+}
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -470px;
+    left: -600px;
+    perspective: 800px;
+}
+.circle {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+.container1 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -350px;
+    left: -720px;
+    perspective: 800px;
+}
+.circle1 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container-1 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -300px;
+    left: -480px;
+    perspective: 800px;
+}
+.circle-1 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container2 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -370px;
+    left: -820px;
+    perspective: 800px;
+}
+    .circle2 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+    @keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container-2 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -310px;
+    left: -380px;
+    perspective: 800px;
+}
+    .circle-2 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+    @keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container3 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -220px;
+    left: -930px;
+    perspective: 800px;
+}
+.circle3 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container-3 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -300px;
+    left: -280px;
+    perspective: 800px;
+}
+.circle-3 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container4 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -210px;
+    left: -1020px;
+    perspective: 800px;
+}
+.circle4 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container-4 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -300px;
+    left: -180px;
+    perspective: 800px;
+}
+.circle-4 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .circle4 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container5 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -190px;
+    left: -950px;
+    perspective: 800px;
+}
+.circle5 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+    
+    .container-5 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -300px;
+    left: -250px;
+    perspective: 800px;
+}
+.circle-5 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container6 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -180px;
+    left: -870px;
+    perspective: 800px;
+}
+.circle6 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container-6 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -300px;
+    left: -320px;
+    perspective: 800px;
+}
+.circle-6 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container7 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -180px;
+    left: -750px;
+    perspective: 800px;
+}
+.circle7 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container-7 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -300px;
+    left: -430px;
+    perspective: 800px;
+}
+.circle-7 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
+
+    .container0 {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -200px;
+    left: -600px;
+    perspective: 800px;
+}
+.circle0 {
+    width: 500%;
+    height: 500%;
+    transform-style: preserve-3d;
+    animation: rotateCircle 2s infinite linear;
+}
+@keyframes rotateCircle {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+    }
