@@ -13,4 +13,4 @@ for (let i=0;i<liList.length;i++){
     liList[i].classList.add('dark');
 }
 const header=document.getElementById("header");
-header.textContent=`Tổng số lượng phần tử: ${liList.length}`;
+header.textContent=`Tổng số lượng : ${liList.length}`;
