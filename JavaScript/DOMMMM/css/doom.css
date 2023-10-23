@@ -1,0 +1,10 @@
+ul{
+    list-style-type: none;
+}
+.dark{
+    background-color: #333;
+    color: #fff;
+}
+body{
+    background-color: red;
+}
