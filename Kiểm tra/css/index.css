@@ -4,8 +4,8 @@
 }
 #heading{
     text-align: center;
-    color: rgb(200, 208, 214);
-    background-color: rgb(85, 78, 78);
+    color: rgb(98, 165, 216);
+    background-color: rgb(116, 9, 9);
     height: 200px;
     padding: 30px 0 10px 0;
     box-sizing: border-box;
@@ -16,6 +16,11 @@ li{
 }
 ul{
     margin-top: 30px;
+}
+#all{
+    display: flex;
+    margin: 20px;
+
 }
 #info{
     text-align: left;
@@ -32,9 +37,4 @@ ul{
     text-align: center;
     background-color: black;
     color: aliceblue;
-}
-#all{
-    display: flex;
-    margin: 10px;
-
 }
