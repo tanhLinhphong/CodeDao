@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#heading{
+    text-align: center;
+    color: rgb(200, 208, 214);
+    background-color: rgb(85, 78, 78);
+    height: 200px;
+    padding: 30px 0 10px 0;
+    box-sizing: border-box;
+}
+li{
+    display: inline ;
+    margin: 9px;
+}
+ul{
+    margin-top: 30px;
+}
+#info{
+    text-align: left;
+    border-top: 2px black;
+    border-bottom: 2px black;
+    background-color: rgb(216, 186, 202);
+}
+#link{
+    width: 35%;
+    background-color: rgb(102, 78, 48);
+    margin: 0 0 0 10px;
+}
+#footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+#all{
+    display: flex;
+    margin: 10px;
+
+}
