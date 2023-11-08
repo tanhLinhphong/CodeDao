@@ -1,4 +1,10 @@
-*{
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(235, 154, 154);
+}
+
+    *{
     padding: 0;
     margin: 0;
 }
