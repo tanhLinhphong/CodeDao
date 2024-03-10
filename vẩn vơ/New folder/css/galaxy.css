@@ -1,0 +1,24 @@
+.card {
+  width: 18rem;
+  margin: 0 1rem 1rem 0;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.card-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 1rem 0;
+}
+
+.card-footer {
+  padding: 1rem 0;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
